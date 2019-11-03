@@ -1,0 +1,56 @@
+/* CSS Document */
+body{
+	background-color: #eee;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+a{
+	text-decoration:none;
+	color: red;
+}
+
+h1, h2, h3, h4{
+	margin: 0;
+}
+#container{
+	background-color:aliceblue;
+	width: 900px;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	background-color: #66CCFF;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#content{
+	padding: 10px;
+	height: auto;
+}
+
+#sidenav{
+	width: 30%;
+	float: right;
+}
+
+
+#main{
+	width: 69%;
+	padding-right: 1px;
+	float: left;
+	
+}
+#vulnerable_code_area{
+	width: 80%;
+	
+}
+#footer{
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: antiquewhite;
+	text-align: right;
+}
